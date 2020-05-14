@@ -1,5 +1,5 @@
-N = int(input())
-S = input()
+N = int(input())# 文字列のサイズ
+S = input()#文字列
 A = [0]*(N+1)
 H１ = [0]*N
 H2 = [0]*N
@@ -31,7 +31,7 @@ def RollingHash(text_):
 RollingHash(S)
 
 
-def kaibun2(x, y):  
+def kaibun2(x, y):#[x,y]の範囲が回文であるかそうでないかの判定をおこなう
     h = 10**9+7
     w1 = 0
     w2 = 0
