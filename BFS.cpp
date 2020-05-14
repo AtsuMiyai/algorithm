@@ -1,8 +1,3 @@
-/*
-グリッド型の幅優先探索はABC151(復習)の問題にある。よく見ておくように
-
-*/
-
 #include <iostream>
 #include <vector>
 #include <queue>
