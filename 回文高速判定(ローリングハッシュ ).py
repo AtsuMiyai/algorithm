@@ -31,7 +31,7 @@ def RollingHash(text_):
 RollingHash(S)
 
 
-def kaibun2(x, y):  # H2の方は先頭N-1-y 後ろがN-1-x
+def kaibun2(x, y):  
     h = 10**9+7
     w1 = 0
     w2 = 0
@@ -54,10 +54,3 @@ def kaibun2(x, y):  # H2の方は先頭N-1-y 後ろがN-1-x
     else:
         return 0
 
-    # xは先頭index yが後ろのindex6
-# abccba
-#[97, 97777, 98461538, 150768172, 823548245, 313077009]
-# [97, 97777, 98461538, 150768172, 823548245, 313077009]172929556]
-# print(kaibun2(0,5)) 100490642
-y = (H1[4] % h-A[4]*H1[0] % h) % h
-print(y)
