@@ -1,4 +1,3 @@
-//説明はABC157 youtube
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
