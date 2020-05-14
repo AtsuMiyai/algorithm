@@ -4,8 +4,6 @@
     query(a,b): [a,b) での最小の要素を取得。O(log(n))
     find_rightest(a,b,x): [a,b) で x以下の要素を持つ最右位置を求める。O(log(n))
     find_leftest(a,b,x): [a,b) で x以下の要素を持つ最左位置を求める。O(log(n))
-
-https://algo-logic.info/segment-tree/
 */
 
 #include <bits/stdc++.h>
