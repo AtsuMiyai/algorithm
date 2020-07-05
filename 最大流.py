@@ -22,12 +22,11 @@ def dfs_ff(s, e, flow):
         if node[1] > 0 and visited[node[0]] == 0:
             f = dfs_ff(node[0], e, min(flow, node[1]))
             if f > 0:
-                # nodeのところのnode[1]を変更してそれを反映させたい。
-                node[1] -= f  # これと
-                # 存在しないと仮定した方が楽なのでそうしよう
+              
+                node[1] -= f  
                 Edge_list[node[0]][node[2]][1] += f
                 return f
-                # if (Edge_list[node[0]])
+               
     return 0
 
 
